@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
-    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="divs" id="dash"><img src="chapeu.png" class="chapeu" alt=""><p>Dashboard</p></div>
     <div class="divs" id="pesquisa"><p>Search</p></div>
     <div class="divs" id="welcome">
-        <div><p class="date">September 4, 2023</p></div>
-        <div><h1>Welcome back, John!<p>Always stay updated in your student portal</p></h1></div>
-        
-        <!-- <img src="tudo.png" alt="" class="foto"> -->
+        <div class="text-container">
+            <p class="date">September 4, 2023</p><div>
+                <h1 class="welcome-text">Welcome back, John!</h1>
+                <p class="info">Always stay updated in your student portal</p></div>
+            </div>
+                <img src="tudo.png" alt="" id="foto">
     </div>
     <div class="perfil">
         <img src="perfil.png" alt="">
@@ -22,11 +24,47 @@
             <p class="year">3rd year</p>
         </div>
     </div>
-    <div class="divs" id="dez"><p>10</p></div>
+     <div class="sino">
+            <img  id="sinoluana" src="sinoluana.svg" alt="">
+        </div>
+        <div class="divs" id="dez">
+            <div class="finance">Finance</div> 
+            <p>10</p>
+        </div>
     <div class="divs" id="cinco"><p>5</p></div>
     <div class="divs" id="tres"><p>300</p></div>
-    <div class="divs" id="object"><p>object</p></div>
-    <div class="divs" id="fund"><p>fundamentals</p></div>
-    <div class="divs" id="daily"><p>daily</p></div>
+    <div class="divs" id="object">
+        <p class="object-text">Enrolled Courses</p> 
+        <p>object</p> 
+    </div>
+    <div class="divs" id="fund">
+        <p class="fundamentals-text">See all</p> 
+        <p>See All</p> 
+    </div>    
+    <div class="divs" id="daily">
+        <div class="daily-images">
+            <div>
+                <h1 class="daily-title">Course intructors</h1></div>
+            <div class="images-container">
+                <img src="pessoa1.png" alt="Image 1">
+                <img src="pessoa2.png" alt="Image 2">
+                <img src="pessoa3.png" alt="Image 3">
+            </div>
+        <p class="daily-left-text">Daily notice</p>
+        <p class="daily-right-text">See all</p>
+        <div class="textotodo">
+            <h1 class="titulo">Prelim payment due</h1>
+            <p>Sorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <h1 class="titulo">See more</h1>
+            <h1 class="titulo">Exam Schedule</h1>
+            <p>Norem ipsum dolor sit amet, 
+                consectetur adipiscing elit. 
+                Nunc vulputate libero et velit 
+                interdum, ac aliquet odio 
+                mattis.</p>
+            <h1 class="titulo">See more</h1>
+        </div>
+    </div>
+        
 </body>
 </html>
