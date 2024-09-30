@@ -83,6 +83,11 @@ body {
     grid-column: 12 / 12;
 }
 
+#sinoluana{
+    grid-row: 3 / 7;
+    grid-column: 6 / 8;
+}
+
 .year {
     font-size: 12px;
     color: rgba(0, 0, 0, 0.6); 
@@ -100,29 +105,29 @@ body {
 .text-container {
     display: flex;
     flex-direction: column; 
-    gap: 70px; 
+    gap: 50px; 
 }
 
 .date {
-    font-size: 16px;
-
+    font-size: 15px;
 }
 
-.welcome-text {
+.welcometext {
     font-size: 32px;
     margin: 0px; 
 }
 
-.info {
+.always {
     font-size: 16px;
     margin: 0px;
 }
 
 
 #foto{
-    width: 600px;
+    width: 500px;
     height: auto;
     margin-left: 20px; 
+    margin-bottom: 27px;
 }
 
 #dez {
@@ -159,7 +164,7 @@ body {
     background-color: #FFEBDC;
 }
 
-.object-text {
+.objecttext {
     position: absolute; 
     top: -60px; 
     left: 10px; 
@@ -175,7 +180,7 @@ body {
 }
 
 
-.fundamentals-text {
+.fundtext {
     position: absolute; 
     top: -60px; 
     right: 10px; 
@@ -191,7 +196,7 @@ body {
     position: relative;
 }
 
-.daily-left-text {
+.dailyleft {
     position: absolute;
     top: -60px;
     left: 10px;
@@ -200,7 +205,7 @@ body {
     font-weight: bold;
 }
 
-.daily-right-text {
+.dailyright {
     position: absolute;
     top: -60px;
     right: 10px;
@@ -211,41 +216,41 @@ body {
 
 .titulo{
     font-size: 15px;
-    margin-top: 0px;
 }
 
 .textotodo{
-    font-size: 15px;
+    font-size: 12px;
     align-items: flex-start;
     justify-content: flex-end;
     flex-direction: column;
-    margin: 20px;
-    margin-top: 120px;
+    margin: 15px;
+    margin-top: -9px;
 }
 
-.daily-images {
+.dailyimg {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 0px;
+    
 }
 
-.daily-title {
+.dailytitle {
     position: absolute;
-    top: -210px; 
+    top: -170px; 
     color: black;
     font-size: 20px;
     font-weight: bold;
-    text-align: center;
-    margin-left: -300px;
+    margin-left: -250px;
 }
 
 .images-container {
     display: flex;
     justify-content: space-around;
     margin-top: -150px; 
-    margin-right: 430px;
+    margin-bottom: 10px; 
+    margin-right: 300px;
 }
 
 .images-container img {
@@ -254,7 +259,5 @@ body {
 }
 
 
-#sinoluana{
-    grid-row: 3 / 7;
-    grid-column: 6 / 8;
-}
+
+
