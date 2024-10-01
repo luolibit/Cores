@@ -15,7 +15,7 @@ body {
     border-radius: 15px;
     place-items: center;
     display: grid;
-    box-shadow: 10px 10px 30px  rgba(0, 0, 0, 0.25)
+    box-shadow: 10px 10px 30px  rgba(0, 0, 0, 0.25);
 }
 
 #dash{
@@ -28,6 +28,34 @@ body {
     flex-direction: column;
     justify-content: flex-start; 
     align-items: center; 
+}
+
+.barra{
+    display: flex;
+    align-items: center; 
+    padding-left: 20px; 
+    margin-top: 25px; 
+    font-size: 16px;
+}
+
+.barra img{
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
+}
+
+.logout{
+    display: flex;
+    align-items: center; 
+    padding-left: 20px; 
+    margin-top: 90px; 
+    font-size: 16px;
+}
+
+.logout img{
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
 }
 
 .chapeu{
@@ -136,6 +164,28 @@ body {
     position: relative;
 }
 
+#dez, #cinco, #tres {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0px;
+}
+
+.hum {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1; 
+    margin: 0; 
+}
+
+.pe {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1,5;
+    margin-top: 0px;
+}
+
 .finance {
     position: absolute; 
     top: -50px; 
@@ -147,8 +197,15 @@ body {
 #cinco{
     grid-row: 7/10;
     grid-column: 5/7;
+    
     border:  2.605px solid #FA8500;
     background-color: #FFEBDC;
+    display: flex;
+}
+
+.icone{
+    margin-bottom: opx;
+    width: 70px;
 }
 
 #tres{
