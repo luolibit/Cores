@@ -34,12 +34,12 @@ body {
     display: flex;
     align-items: center; 
     padding-left: 20px; 
-    margin-top: 25px; 
-    font-size: 16px;
+    margin-top: 10px; 
+    font-size: 10px;
 }
 
 .barra img{
-    width: 24px; 
+    width: 20px; 
     height: 24px;
     margin-right: 10px; 
 }
@@ -48,14 +48,13 @@ body {
     display: flex;
     align-items: center; 
     padding-left: 20px; 
-    margin-top: 90px; 
-    font-size: 16px;
+    margin-top: 50px; 
+    font-size: 10px;
 }
 
 .logout img{
-    width: 24px; 
+    width: 20px; 
     height: 24px;
-    margin-right: 10px; 
 }
 
 .chapeu{
