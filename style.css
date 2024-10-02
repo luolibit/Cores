@@ -271,16 +271,17 @@ body {
 }
 
 .titulo{
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .textotodo{
-    font-size: 10px;
+    font-size: 12px;
     align-items: flex-start;
     justify-content: flex-end;
     flex-direction: column;
     margin: 15px;
     margin-top: -8px;
+    line-height: 12px;
 }
 
 .dailyimg {
