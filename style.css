@@ -252,13 +252,13 @@ body {
 
 .textobaixo{
     display: flex;
-    flex-direction: column;
+    flex-direction: column
 }
 
 .view{
     border: 2px solid #FA8500;
     border-radius: 20px;
-       
+    
 }
 
 #daily {
